@@ -1,0 +1,20 @@
+{
+  "name": "gpg-atom",
+  "main": "./lib/gpg-atom",
+  "version": "0.0.0",
+  "description": "This plugin uses gpg to decrypt/encrypt files.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "gpg-atom:decrypt",
+    "atom-workspace": "gpg-atom:encrypt"
+  },
+  "repository": "https://github.com/atom/gpg-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+
+  }
+}
