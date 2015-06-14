@@ -21,7 +21,7 @@ module.exports = GpgAtom =
 
   encrypt: ->
     editor = atom.workspace.getActiveTextEditor()
-    @runGpgEncrypt(editor, 'Martin Stoffel')
+    @runGpgEncrypt(editor, 'xxx')
 
   runGpgEncrypt: (editor, name) ->
     fileName = editor.getPath()
